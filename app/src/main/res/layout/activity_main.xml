@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- padrão vertical para orientação -->
+
+    <!-- imagem para login -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <!-- usuário  -->
+    <EditText
+        android:id="@+id/editTextUsuarioLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edit_usuário"
+        android:inputType="textPersonName" />
+
+    <!-- senha -->
+    <EditText
+        android:id="@+id/editTextSenhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edit_senha"
+        android:inputType="textPassword" />
+
+    <!-- botão logar -->
+    <Button
+        android:id="@+id/botaoEntrarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botão_entrar" />
+
+    <!-- sem id, não irá utilizar back-end -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ou" />
+    <!-- botão SingIn da google só libera depois de adcionado as 
+    aimplementações no build.gradel -->
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/botaoGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
