@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth;
 public class PrincipalActivity extends AppCompatActivity {
 
     ActivityPrincipalBinding binding;
-    private FirebaseAuth mAuth;
 
 
     @Override
@@ -24,15 +23,12 @@ public class PrincipalActivity extends AppCompatActivity {
         setContentView(view);
 
         // configurando botão sair/logout
-        binding.botaoSairPrincipal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mAuth.getInstance().signOut();
+        binding.botaoSairPrincipal.setOnClickListener(view1 -> {
+           FirebaseAuth.getInstance().signOut();
 
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
