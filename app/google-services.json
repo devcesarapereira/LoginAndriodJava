@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980435703384",
+    "project_id": "testeloginjava-c1f60",
+    "storage_bucket": "testeloginjava-c1f60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980435703384:android:1623d02707812bd0ed9c2d",
+        "android_client_info": {
+          "package_name": "com.example.testeloginjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980435703384-pkqjdg9t82sm7mv807ndtga1tu9v710e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByq-nSrDx8FcOdqAbUTjdsihUPV6Fn0iI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980435703384-pkqjdg9t82sm7mv807ndtga1tu9v710e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

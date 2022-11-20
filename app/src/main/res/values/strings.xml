@@ -2,6 +2,9 @@
     <string name="app_name">TesteLoginJava</string>
     <string name="edit_usuário">Usuário</string>
     <string name="edit_senha">Senha</string>
+    <!--  botoes -->
     <string name="botão_entrar">Entrar</string>
     <string name="text_ou">ou</string>
+    <string name="botão_sair">Sair</string>
+
 </resources>
